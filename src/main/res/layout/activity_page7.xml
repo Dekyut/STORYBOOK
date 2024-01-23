@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    android:gravity="start|top"
+    android:orientation="horizontal"
+    tools:context=".Page7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Venturing further, Adian discovered the Cheese Caves, where cheeses aged to perfection. In this cheesy haven, he met Jasper the Cheese Master, who shared the secrets of crafting artisanal cheeses."
+        android:textSize="20sp"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:textColor="#1930C5"
+        android:padding="10dp" />
+</LinearLayout>

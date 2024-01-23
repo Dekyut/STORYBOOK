@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start|top"
+    android:background="@drawable/background2"
+    tools:context=".Page2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="In the bustling town of Culinary Haven, there lived a passionate and ambitious chef named Adian. Known for his innovative dishes and insatiable curiosity, Adian dreamt of exploring the culinary world beyond the familiar flavors of his hometown."
+        android:textSize="20sp"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:textColor="#1930C5"
+        android:padding="10dp" />
+
+
+    </LinearLayout>

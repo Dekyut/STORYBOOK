@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="start|top"
+    android:background="@drawable/background3"
+    tools:context=".Page3_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Adian found an ancient cookbook in his grandmother's attic, filled with magical recipes. Inspired, he embarked on a culinary journey."
+        android:textSize="20sp"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:textColor="#1930C5"
+        android:padding="15dp" />
+
+
+
+</LinearLayout>

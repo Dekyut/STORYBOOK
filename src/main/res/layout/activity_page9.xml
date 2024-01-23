@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start|top"
+    android:background="@drawable/background9"
+    tools:context=".Page9">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:layout_marginLeft="15dp"
+android:layout_marginRight="15dp"
+android:text="Adian's path eventually led him to the Dessert Kingdom, a sweet paradise where sugary delights awaited."
+android:textSize="20sp"
+android:background="@drawable/rounded_background"
+android:fontFamily="sans-serif-condensed"
+android:textStyle="normal|bold"
+android:textColor="#1930C5"
+android:padding="10dp" />
+
+    <!-- Add the new TextView for the Dessert Queen -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="435dp"
+android:layout_marginLeft="15dp"
+android:layout_marginRight="15dp"
+android:text="Here, he met Louissa Kyla, the Dessert Queen, who taught him the art of crafting magical pastries and desserts that would enchant anyone who tasted them."
+android:textSize="20sp"
+android:background="@drawable/rounded_background"
+android:fontFamily="sans-serif-condensed"
+android:textStyle="normal|bold"
+android:textColor="#1930C5"
+android:padding="10dp" />
+
+    </LinearLayout>

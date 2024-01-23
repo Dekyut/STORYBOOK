@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start|top"
+    android:background="@drawable/background10"
+    tools:context=".Page10">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:text="As Adian's culinary skills flourished, he gained a reputation as a renowned chef. Word of his culinary journey spread, and soon, chefs from around the world sought his expertise. Adian hosted international culinary events, sharing the magic he had discovered on his quest."
+    android:textSize="20sp"
+    android:background="@drawable/rounded_background"
+    android:fontFamily="sans-serif-condensed"
+    android:textStyle="normal|bold"
+    android:textColor="#1930C5"
+    android:padding="10dp" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<ImageButton
+    android:id="@+id/imageButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="420dp"
+    android:src="@drawable/blue_baseline_arrow_circle_left_24"
+    android:background="@android:color/transparent"
+    android:onClick="goToPage9" />
+
+<ImageButton
+    android:id="@+id/imageButton2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="420dp"
+    android:src="@drawable/blue_baseline_arrow_circle_right_24"
+    android:background="@android:color/transparent"
+    android:onClick="goToPage11" />
+</RelativeLayout>
+
+    </LinearLayout>

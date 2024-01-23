@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="start|top"
+    android:background="@drawable/background11"
+    tools:context=".Page11">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Back in Culinary Haven, Adian realized that the true magic of his journey was in the connections he made and the joy he brought to others through his culinary creations. With a heart full of gratitude and a wealth of knowledge, Adian continued to explore, knowing that the world of flavors was vast and his culinary adventure was far from over. And so, the story of Adian, the adventurous chef, became a legend in the world of food, inspiring aspiring chefs to follow their taste buds and explore the magical realm of cuisine. THE END."
+        android:textSize="20sp"
+        android:background="@drawable/rounded_background"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="normal|bold"
+        android:textColor="#1930C5"
+        android:padding="10dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="275dp"
+            android:src="@drawable/blue_baseline_arrow_circle_left_24"
+            android:background="@android:color/transparent"
+            android:onClick="goToPage10" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
